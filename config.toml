@@ -11,10 +11,12 @@ output_path = '~/.local/share/fcitx5/themes/mellow-matugen-dark/theme.conf'
 [templates.fcitx5_dark_panel]
 input_path = '~/.config/matugen/templates/fcitx5/dark/panel.svg'
 output_path = '~/.local/share/fcitx5/themes/mellow-matugen-dark/panel.svg'
+post_hook = 'rsvg-convert -w 30 -h 30 ~/.local/share/fcitx5/themes/mellow-matugen-dark/panel.svg -o ~/.local/share/fcitx5/themes/mellow-matugen-dark/panel.png'
 
 [templates.fcitx5_dark_highlight]
 input_path = '~/.config/matugen/templates/fcitx5/dark/highlight.svg'
 output_path = '~/.local/share/fcitx5/themes/mellow-matugen-dark/highlight.svg'
+post_hook = 'rsvg-convert -w 30 -h 30 ~/.local/share/fcitx5/themes/mellow-matugen-dark/highlight.svg -o ~/.local/share/fcitx5/themes/mellow-matugen-dark/highlight.png'
 
 [templates.fcitx5_light]
 input_path = '~/.config/matugen/templates/fcitx5/light/theme.conf'
@@ -23,10 +25,12 @@ output_path = '~/.local/share/fcitx5/themes/mellow-matugen-light/theme.conf'
 [templates.fcitx5_light_panel]
 input_path = '~/.config/matugen/templates/fcitx5/light/panel.svg'
 output_path = '~/.local/share/fcitx5/themes/mellow-matugen-light/panel.svg'
+post_hook = 'rsvg-convert -w 30 -h 30 ~/.local/share/fcitx5/themes/mellow-matugen-light/panel.svg -o ~/.local/share/fcitx5/themes/mellow-matugen-light/panel.png'
 
 [templates.fcitx5_light_highlight]
 input_path = '~/.config/matugen/templates/fcitx5/light/highlight.svg'
 output_path = '~/.local/share/fcitx5/themes/mellow-matugen-light/highlight.svg'
+post_hook = 'rsvg-convert -w 30 -h 30 ~/.local/share/fcitx5/themes/mellow-matugen-light/highlight.svg -o ~/.local/share/fcitx5/themes/mellow-matugen-light/highlight.png'
 
 [templates.fcitx5_black]
 input_path = '~/.config/matugen/templates/fcitx5/black/theme.conf'
@@ -35,10 +39,12 @@ output_path = '~/.local/share/fcitx5/themes/mellow-matugen-black/theme.conf'
 [templates.fcitx5_black_panel]
 input_path = '~/.config/matugen/templates/fcitx5/black/panel.svg'
 output_path = '~/.local/share/fcitx5/themes/mellow-matugen-black/panel.svg'
+post_hook = 'rsvg-convert -w 30 -h 30 ~/.local/share/fcitx5/themes/mellow-matugen-black/panel.svg -o ~/.local/share/fcitx5/themes/mellow-matugen-black/panel.png'
 
 [templates.fcitx5_black_highlight]
 input_path = '~/.config/matugen/templates/fcitx5/black/highlight.svg'
 output_path = '~/.local/share/fcitx5/themes/mellow-matugen-black/highlight.svg'
+post_hook = 'rsvg-convert -w 30 -h 30 ~/.local/share/fcitx5/themes/mellow-matugen-black/highlight.svg -o ~/.local/share/fcitx5/themes/mellow-matugen-black/highlight.png'
 
 [templates.fcitx5_white]
 input_path = '~/.config/matugen/templates/fcitx5/white/theme.conf'
@@ -47,7 +53,9 @@ output_path = '~/.local/share/fcitx5/themes/mellow-matugen-white/theme.conf'
 [templates.fcitx5_white_panel]
 input_path = '~/.config/matugen/templates/fcitx5/white/panel.svg'
 output_path = '~/.local/share/fcitx5/themes/mellow-matugen-white/panel.svg'
+post_hook = 'rsvg-convert -w 30 -h 30 ~/.local/share/fcitx5/themes/mellow-matugen-white/panel.svg -o ~/.local/share/fcitx5/themes/mellow-matugen-white/panel.png'
 
 [templates.fcitx5_white_highlight]
 input_path = '~/.config/matugen/templates/fcitx5/white/highlight.svg'
 output_path = '~/.local/share/fcitx5/themes/mellow-matugen-white/highlight.svg'
+post_hook = 'rsvg-convert -w 30 -h 30 ~/.local/share/fcitx5/themes/mellow-matugen-white/highlight.svg -o ~/.local/share/fcitx5/themes/mellow-matugen-white/highlight.png'

@@ -55,7 +55,7 @@
        x="10.5"
        y="10.5"
        rx="0"
-       style="fill:{{colors.surface_container_high.default.hex}};fill-opacity:1;stroke:{{colors.outline.default.hex}};stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter480)"
+       style="fill:{{colors.surface_container_high.dark.hex}};fill-opacity:1;stroke:{{colors.outline.dark.hex}};stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter480)"
        d="m 29.5,10.5 h 1 c 10.49341,0 19,8.50659 19,19 v 1 c 0,10.49341 -8.50659,19 -19,19 h -1 c -10.49341,0 -19,-8.50659 -19,-19 v -1 c 0,-10.49341 8.50659,-19 19,-19 z" />
   </g>
 </svg>
